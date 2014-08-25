@@ -1,0 +1,130 @@
+         628290144 function calls (628095685 primitive calls) in 774.890 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+   259964  475.520    0.002  770.260    0.003 circuit.py:381(_find_min)
+625762426  294.727    0.000  294.727    0.000 circuit.py:286(__lt__)
+    64400    1.270    0.000  774.227    0.012 circuit.py:423(step)
+828910/634511    0.448    0.000    0.572    0.000 {len}
+    65554    0.354    0.000    0.687    0.000 circuit.py:163(transition_output)
+    65583    0.348    0.000    0.348    0.000 {method 'pop' of 'list' objects}
+   194381    0.345    0.000  770.612    0.004 circuit.py:361(min)
+        1    0.273    0.273  774.678  774.678 circuit.py:456(run)
+    65583    0.231    0.000    0.602    0.000 circuit.py:368(pop)
+    65554    0.198    0.000    0.236    0.000 circuit.py:33(output)
+    65583    0.177    0.000    0.274    0.000 circuit.py:268(__init__)
+    65583    0.129    0.000    0.145    0.000 circuit.py:354(append)
+   194384    0.123    0.000    0.173    0.000 circuit.py:350(__len__)
+    65554    0.098    0.000    0.334    0.000 circuit.py:90(output)
+    65583    0.097    0.000    0.097    0.000 circuit.py:335(next_object_id)
+   148002    0.096    0.000    0.096    0.000 {method 'append' of 'list' objects}
+    65583    0.079    0.000    0.079    0.000 circuit.py:309(is_valid)
+    65554    0.068    0.000    0.107    0.000 circuit.py:172(transition_time)
+    32768    0.063    0.000    0.063    0.000 {method 'write' of 'file' objects}
+    65556    0.058    0.000    0.058    0.000 circuit.py:315(apply)
+        1    0.044    0.044    0.044    0.044 hex_codec.py:8(<module>)
+    65554    0.038    0.000    0.038    0.000 circuit.py:94(output_time)
+        1    0.038    0.038  774.890  774.890 circuit.py:3(<module>)
+        1    0.019    0.019    0.023    0.023 circuit.py:546(outputs_to_line_list)
+        1    0.013    0.013    0.098    0.098 circuit.py:549(outputs_to_file)
+        1    0.012    0.012    0.056    0.056 {__import__}
+        1    0.007    0.007    0.009    0.009 scanner.py:2(<module>)
+    16385    0.004    0.000    0.004    0.000 {method 'join' of 'str' objects}
+        1    0.003    0.003    0.073    0.073 __init__.py:99(<module>)
+        1    0.002    0.002    0.002    0.002 {method 'sort' of 'list' objects}
+        1    0.002    0.002    0.069    0.069 decoder.py:2(<module>)
+     15/6    0.001    0.000    0.002    0.000 sre_parse.py:379(_parse)
+       14    0.001    0.000    0.001    0.000 sre_compile.py:207(_optimize_charset)
+        1    0.001    0.001    0.002    0.002 circuit.py:478(from_file)
+       66    0.000    0.000    0.001    0.000 circuit.py:233(add_gate)
+      120    0.000    0.000    0.000    0.000 {method 'readline' of 'file' objects}
+      118    0.000    0.000    0.000    0.000 sre_parse.py:182(__next)
+       66    0.000    0.000    0.000    0.000 circuit.py:108(__init__)
+     26/6    0.000    0.000    0.001    0.000 sre_compile.py:32(_compile)
+    35/15    0.000    0.000    0.000    0.000 sre_parse.py:140(getwidth)
+        4    0.000    0.000    0.000    0.000 sre_compile.py:258(_mk_bitmap)
+       91    0.000    0.000    0.000    0.000 sre_parse.py:130(__getitem__)
+     13/6    0.000    0.000    0.002    0.000 sre_parse.py:301(_parse_sub)
+        1    0.000    0.000    0.001    0.001 encoder.py:2(<module>)
+       94    0.000    0.000    0.000    0.000 sre_parse.py:201(get)
+        6    0.000    0.000    0.005    0.001 re.py:228(_compile)
+      121    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+       78    0.000    0.000    0.000    0.000 circuit.py:122(connect_input)
+      111    0.000    0.000    0.000    0.000 {isinstance}
+       14    0.000    0.000    0.001    0.000 sre_compile.py:178(_compile_charset)
+       18    0.000    0.000    0.000    0.000 sre_parse.py:225(_class_escape)
+        6    0.000    0.000    0.001    0.000 sre_compile.py:361(_compile_info)
+       50    0.000    0.000    0.000    0.000 sre_parse.py:126(__len__)
+        6    0.000    0.000    0.002    0.000 sre_parse.py:663(parse)
+       80    0.000    0.000    0.000    0.000 sre_parse.py:195(match)
+        6    0.000    0.000    0.004    0.001 sre_compile.py:495(compile)
+        1    0.000    0.000    0.057    0.057 __init__.py:71(search_function)
+        1    0.000    0.000    0.000    0.000 codecs.py:77(__new__)
+       26    0.000    0.000    0.000    0.000 sre_parse.py:90(__init__)
+       16    0.000    0.000    0.000    0.000 circuit.py:214(add_gate_type)
+       29    0.000    0.000    0.000    0.000 circuit.py:415(add_transition)
+       56    0.000    0.000    0.000    0.000 {min}
+       32    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+        1    0.000    0.000    0.057    0.057 decoder.py:17(_floatconstants)
+        1    0.000    0.000    0.000    0.000 {_struct.unpack}
+       25    0.000    0.000    0.000    0.000 sre_parse.py:138(append)
+        6    0.000    0.000    0.002    0.000 sre_compile.py:480(_code)
+        9    0.000    0.000    0.000    0.000 sre_compile.py:354(_simple)
+       38    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+       12    0.000    0.000    0.000    0.000 sre_compile.py:474(isstring)
+        6    0.000    0.000    0.000    0.000 sre_parse.py:178(__init__)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:257(_escape)
+      7/3    0.000    0.000    0.000    0.000 circuit.py:42(_build_table)
+        1    0.000    0.000    0.000    0.000 hex_codec.py:70(getregentry)
+        1    0.000    0.000    0.000    0.000 {binascii.a2b_hex}
+        6    0.000    0.000    0.000    0.000 sre_parse.py:72(opengroup)
+        6    0.000    0.000    0.000    0.000 {_sre.compile}
+        1    0.000    0.000    0.000    0.000 decoder.py:304(__init__)
+        1    0.000    0.000    0.057    0.057 {method 'decode' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {sorted}
+       16    0.000    0.000    0.000    0.000 circuit.py:71(__init__)
+        8    0.000    0.000    0.000    0.000 {range}
+        3    0.000    0.000    0.000    0.000 circuit.py:200(add_truth_table)
+        6    0.000    0.000    0.005    0.001 re.py:188(compile)
+        6    0.000    0.000    0.000    0.000 sre_parse.py:83(closegroup)
+        6    0.000    0.000    0.000    0.000 sre_parse.py:67(__init__)
+        3    0.000    0.000    0.000    0.000 circuit.py:18(__init__)
+        6    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+       54    0.000    0.000    0.000    0.000 sre_compile.py:24(_identityfunction)
+        1    0.000    0.000    0.000    0.000 hex_codec.py:27(hex_decode)
+        1    0.000    0.000    0.000    0.000 __init__.py:49(normalize_encoding)
+        1    0.000    0.000    0.000    0.000 circuit.py:187(Circuit)
+        1    0.000    0.000    0.000    0.000 encoder.py:102(__init__)
+        9    0.000    0.000    0.000    0.000 sre_parse.py:134(__setitem__)
+       15    0.000    0.000    0.000    0.000 {ord}
+        3    0.000    0.000    0.000    0.000 circuit.py:60(_table_depth)
+       32    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+       32    0.000    0.000    0.000    0.000 {chr}
+        1    0.000    0.000    0.000    0.000 circuit.py:395(Simulation)
+        1    0.000    0.000    0.000    0.000 hex_codec.py:45(Codec)
+        1    0.000    0.000    0.000    0.000 circuit.py:265(Transition)
+        1    0.000    0.000    0.000    0.000 circuit.py:105(Gate)
+        1    0.000    0.000    0.000    0.000 hex_codec.py:52(IncrementalEncoder)
+        4    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        2    0.000    0.000    0.000    0.000 UserDict.py:58(get)
+        1    0.000    0.000    0.000    0.000 encoder.py:71(JSONEncoder)
+        1    0.000    0.000    0.000    0.000 circuit.py:15(TruthTable)
+        1    0.000    0.000    0.000    0.000 circuit.py:398(__init__)
+        2    0.000    0.000    0.000    0.000 UserDict.py:70(__contains__)
+        1    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x10017ef00}
+        1    0.000    0.000    0.000    0.000 hex_codec.py:57(IncrementalDecoder)
+        1    0.000    0.000    0.000    0.000 circuit.py:68(GateType)
+        4    0.000    0.000    0.000    0.000 {max}
+        1    0.000    0.000    0.000    0.000 decoder.py:274(JSONDecoder)
+        1    0.000    0.000    0.000    0.000 circuit.py:343(PriorityQueue)
+        1    0.000    0.000    0.000    0.000 hex_codec.py:62(StreamWriter)
+        6    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 circuit.py:194(__init__)
+        1    0.000    0.000    0.000    0.000 hex_codec.py:65(StreamReader)
+        1    0.000    0.000    0.000    0.000 circuit.py:254(add_probe)
+        1    0.000    0.000    0.000    0.000 {hasattr}
+        1    0.000    0.000    0.000    0.000 {method 'translate' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 circuit.py:135(probe)
+        1    0.000    0.000    0.000    0.000 circuit.py:345(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
